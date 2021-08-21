@@ -1,0 +1,77 @@
+body {
+  background-color: #ffc300;
+}
+/*
+.click {
+  background-color: #e86d10; 
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+*/
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: #e86d10;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button1 {
+  background-color: #e86d10;
+  color: black;
+  border: 2px solid #e86d10;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#inp {
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+  background-color: #f5b400;
+  color: black;
+  font-size: 18px;
+}
+
+#main {
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  display: inline-block;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+}
